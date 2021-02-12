@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Bruno Gomes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="NLW#3 conteúdo de WorkShop" />
+    <link rel="icon" href="./public/images/logo-icon.png" />
+    <!--icon-->
+    <title>Localize um orfanato | Happy</title>
+    <!--TITULO -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="./public/css/page-orphanages.css" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/animations.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS FONTE NUNITO -->
+
+   
+    <!-- LEAFLET CSS + JS LEAFLET-->
+  </head>
+  <body>
+    <div id="page-orphanages">
+      <aside class="animation-right">
+        <header>
+          <a href="index.html">
+            <img src="./public/images/map-marker.svg" alt="Happy" />
+          </a>
+          <h2>Escolha um orfanato no mapa.</h2>
+          <p>muitas crianças estão esperando sua visita :)</p>
+        </header>
+        <footer>
+          <strong>Nova Iguaçu</strong>
+          <p>Rio de janeiro</p>
+
+        </footer>
+      </aside>
+      <div id="mapid" class="animate-appear"></div>
+        <a href="create-orphanage.html" class="create-orphanage" title="Cadastre um orfanato">
+          <img src="./public/images/plus.svg" alt="Criar orfanato">
+        </a>      
+    </div>
+
+
+    <script src="./public/scripts/page-orphanages.js">
+
+
+    </script>
+  </body>
+</html>
